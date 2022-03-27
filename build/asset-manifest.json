@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/my-git-repo/static/js/main.bc9cfc20.js",
+    "index.html": "/my-git-repo/index.html",
+    "main.bc9cfc20.js.map": "/my-git-repo/static/js/main.bc9cfc20.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.bc9cfc20.js"
+  ]
+}

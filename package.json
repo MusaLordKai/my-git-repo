@@ -6,9 +6,15 @@
   "directories": {
     "test": "test"
   },
+  "homepage": "http://MusaLordKai.github.io/my-git-repo",
   "scripts": {
     "dev": "lite-server",
-    "test": "echo \"Error: no test specified\" && sexit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "echo \"Error: no test specified\" && sexit 1",
+    "eject": "react-script eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "author": "gregory@dappuniversity.com",
   "license": "ISC",
@@ -17,6 +23,7 @@
     "chai": "^4.3.6",
     "chai-as-promised": "^7.1.1",
     "chai-bignumber": "^2.0.2",
+    "gh-pages": "^3.2.3",
     "lite-server": "^2.3.0",
     "nodemon": "^1.17.3",
     "truffle": "^5.0.2",
@@ -27,6 +34,19 @@
     "ethers": "^5.5.4",
     "ganache-cli": "^6.12.2",
     "mocha": "^9.2.2",
+    "react-scripts": "^5.0.0",
     "web3": "^1.7.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
